@@ -1,11 +1,11 @@
 package utils;
 
-import core.appiumDriver;
+import io.appium.java_client.AppiumDriver;
 
-public class androidUtils {
-    private appiumDriver driver;
+public class AndroidUtils {
+    private AppiumDriver driver; // Corrected class name
 
-    public androidUtils(appiumDriver driver) {
+    public AndroidUtils(AppiumDriver driver) { // Corrected constructor name
         this.driver = driver;
     }
 
